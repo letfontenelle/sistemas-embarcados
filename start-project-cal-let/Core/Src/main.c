@@ -22,7 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #define PWM_FREQUENCY_HZ 100
-#define DUTY_CYCLE_PERCENT 6 // Alterar este paraametro para aumentar ou diminuir o brilho do led por pwm (controlado via software
+#define DUTY_CYCLE_PERCENT 100 // Alterar este paraametro para aumentar ou diminuir o brilho do led por pwm (controlado via software
 
 void software_pwm(uint16_t frequency, uint8_t duty_cycle);
 /* USER CODE END Includes */
